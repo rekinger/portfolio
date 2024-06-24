@@ -22,7 +22,7 @@ export default function Home() {
         <Tab key="Me" title="Me">
           <Card className="max-w-[400px]">
             <CardHeader className="flex gap-3">
-              <Image
+              <Image 
                 alt="nextui logo"
                 height={40}
                 radius="sm"
