@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.download {
+    cursor: pointer;
+}
+
+.download:hover {
+    text-decoration: underline;
+}
