@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <Tabs classNames={{
-        tabList: isMobile ? "gap-10 w-screen": "gap-10 w-full",
+        tabList: global?.window && window.innerWidth > 600 ? "gap-10 w-screen": "gap-10 w-full",
       }} 
       key={"nav tabs"} variant={"underlined"} isVertical={global?.window ? window.innerWidth > 600: false} size={"lg"} aria-label="Tabs variants">
         <Tab key="Me" title="Me">
