@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import { Card, CardBody, CardFooter, CardHeader } from "@nextui-org/Card";
 import { Divider } from "@nextui-org/divider";
 import { Image } from "@nextui-org/image";
