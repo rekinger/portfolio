@@ -17,7 +17,7 @@ export default function Home() {
     <Tabs classNames={{
         tabList: isMobile ? "gap-10 w-screen": "gap-10 w-full",
       }} 
-      key={"nav tabs"} variant={"underlined"} isVertical={!isMobile} size={"lg"} aria-label="Tabs variants">
+      key={"nav tabs"} variant={"underlined"} isVertical={window.innerWidth > 600} size={"lg"} aria-label="Tabs variants">
         <Tab key="Me" title="Me">
           <Card className="max-w-[400px]">
             <CardHeader className="flex gap-3">
